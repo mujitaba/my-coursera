@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar-orange {
+	background: #F26D35
+}
+
+.navbar-orange .navbar-brand {
+  color: #fff;
+}
+.navbar-orange .navbar-brand:hover,
+.navbar-orange .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-orange .navbar-text,
+.navbar-orange .navbar-nav > li > a {
+  color: #fff;
+}
+
+/* Menu */
+.menu-box {
+	height: 240px;
+	border: 1px solid black;
+	background-color: #A52A2A;
+	padding: 60px 15px 20px 15px;
+	position: relative;
+	margin-bottom: 30px;
+}
+.menu-box p {
+  color: #ffffff;
+}
+
+.menu-box h3 {
+	font-size: 22px;
+	text-align: right;
+	background-color: #84BB45;
+	border: 1px solid #000000;
+
+	position: absolute;
+	right: 0;
+	top: 0;
+
+	padding: 5px 12px;
+	margin: 0
+}
+
+.menu-box.bg-khaki h3 {
+  background: khaki
+}
+
+.menu-box.bg-teal h3 {
+  background: #34C2FF
+}
+
+/* Back to top */
+.back-to-top {
+	margin-bottom: 30px;
+}
